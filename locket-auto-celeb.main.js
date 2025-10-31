@@ -11,7 +11,7 @@
 
         // --- Cài đặt Key Kích Hoạt (ĐÃ BỊ XÓA) ---
         // Các biến liên quan đến key đã được loại bỏ
-        MESSENGER_LINK: 'https://www.messenger.com/c/655145337208323/' // Giữ lại link này để báo lỗi
+        MESSENGER_LINK: 'https://www.messenger.com/e2ee/t/7267092906634271' // Giữ lại link này để báo lỗi
     };
 
     let activeTimerId = null;
@@ -683,7 +683,7 @@
         if (btnUpdate) {
             btnUpdate.addEventListener('click', (e) => {
                 e.preventDefault();
-                window.open('https://raw.githubusercontent.com/huyvu2512/locket-celebrity/main/tampermonkey.user.js', '_blank');
+                window.open('https://raw.githubusercontent.com/Pinnnndz/locket-autoceleb/main/tampermonkey.user.js', '_blank');
             });
         }
 
